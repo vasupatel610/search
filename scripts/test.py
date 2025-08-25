@@ -538,7 +538,7 @@ def initialize_index():
     """Initialize the enhanced search index"""
     global INDEX
     
-    dataset_path = os.getenv("DATASET_PATH", "/home/artisans15/projects/fashion_retail_analytics/data/raw/myntra_products_catalog.csv")
+    dataset_path = os.getenv("DATASET_PATH", "/data/raw/myntra_products_catalog.csv")
     
     try:
         logger.info(f"Initializing enhanced index from: {dataset_path}")
