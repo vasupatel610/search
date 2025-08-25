@@ -56,7 +56,7 @@ class LogMiddleware(BaseHTTPMiddleware):
 ################################################################################
 
 # Groq API
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "your_api_key_here")
 GROQ_MODEL = "llama3-8b-8192"
 GROQ_CHAT_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_EMBED_URL = "https://api.groq.com/openai/v1/embeddings"
