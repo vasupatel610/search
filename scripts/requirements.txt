@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+statsmodels
+matplotlib
+fastapi
+uvicorn
+sentence-transformers
+unidecode
+streamlit
+requests
+httpx
